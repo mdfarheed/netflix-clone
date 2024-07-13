@@ -1,0 +1,98 @@
+*{
+    font-family: sans-serif;
+}
+.bg_img{
+    background-image: url('/public/web/bg_img_login.png');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     
+}
+.logo_netflix_login_singin{
+    width: 12vw;
+}
+.btn_bg_color_login{
+    background-color: rgb(190, 19, 19);
+    color: white;
+}
+.btn_bg_color_login:hover{
+    background-color: rgba(190, 19, 19, 0.781);
+    color: white;
+}
+@media screen and (max-width: 800px) {
+    .logo_netflix_login_singin {
+        width: 20vw;
+        margin-left: 0;
+    }
+    .bg_img{
+        height: 550px;
+    }
+    .heading4{
+        font-size: 3vw;
+    }
+    .heading1{
+        font-size: 6vw;
+    }
+  }
+  @media only screen and (max-device-width: 579px) {
+    /* STYLES HERE for DEVICES with physical max-screen width of 480px */
+    .bg_img{
+        height: 500px;
+    }
+    .login_input{
+         margin: auto;
+        width: 100%;
+    }
+    .main_div_login_btn{
+        display: flex;
+        justify-content: center;
+    }
+ 
+    
+}
+.margin_text{
+    margin: 10vw 6vw 0vw 6vw;
+}
+ 
+ 
+/* .login_input
+{
+    margin-left: auto;
+    width: 50%;
+    height: 60px;
+    outline: 0;
+} */
+.login_btn{
+    /* margin-right: auto; */
+    /* font-size: 2vw; */
+    /* width: auto; */
+    background-color: rgb(190, 19, 19);
+    color: white;
+}
+.login_btn:hover{
+    background-color: rgba(190, 19, 19, 0.863);
+    color: white;
+}
+.form-control::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  /* .outline_remove{
+    outline: none;
+  } */
+  .btn_color_modal{
+    background-color: rgb(190, 19, 19);
+    color: white;
+  }
+  .btn_color_modal:hover{
+    background-color: rgba(190, 19, 19, 0.863);
+    color: white;
+  }
+  .sing_paragraph{
+    font-size: small;
+    color: rgba(255, 255, 255, 0.719);
+  }
+  .hover_underline:hover{
+    text-decoration: underline;
+  }

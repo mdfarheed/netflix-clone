@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+body{
+    background-color: black;
+    
+}
+.text_movie{
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+}
+.btn_backgroun_color{
+    background-color: darkred;
+    color: white;
+    font-size: 2vw;
+}
+.btn_backgroun_color:hover{
+    background-color: rgba(139, 0, 0, 0.863);
+    
+}
+.second_slider_img{
+    width: 94%;
+    height: 45vw;
+    margin-left: 3vw;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+.home_img_zoom{
+    transition: 1s;
+}
+.home_img_zoom:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.profile_width{
+    width: 20vw;
+    height: 100%;
+}
+.profile_second_container{
+    width: 78vw;
+}
+@media screen and (max-width: 600px) {
+    .profile_width{
+        width: 30vw;
+    }
+    .profile_second_container{
+        width: 69vw;
+    }
+  }
+  .ofcanvas_colors{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .ofcanvas_color{
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: none; 
+  }
+  .ofcanvas_margin{
+    margin: 20px 0px 0px 10px;
+  }
+.input_users{
+    width: 70%;
+    padding: 10px 0px 10px 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.733);
+    outline: none;
+}

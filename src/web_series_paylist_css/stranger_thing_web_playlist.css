@@ -1,0 +1,93 @@
+ 
+.season_button
+{
+    margin-left: 2vw;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.season_button_box{
+    /* border-top: 5px solid rgba(255, 245, 245, 0.795); */
+    /* border-bottom: 5px solid rgba(100, 94, 94, 0.356); */
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.season_buttons{
+    margin-left: 2vw;
+    text-decoration: none;
+    color: dodgerblue;
+    cursor: pointer;
+}
+.comment_link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#like_btn_c{
+    cursor: pointer;
+}
+#like_btn_c{
+    text-decoration: none;
+    color: white;
+}
+/* .episode_size{
+    margin: 8vw 0vw 0vw 5vw;
+    text-decoration: none;
+    color: white;
+} */
+.card_width{
+    width: 48%;
+    background-color: black;
+    overflow: hidden;
+    border: none;
+}
+.bg-card-trailer{
+    background-color: black;
+
+}
+.decoration-remove>p{
+    text-decoration: none;
+}
+.card_width_cast{
+    width: 48%;
+    height: auto;
+    background-color: black;
+}
+.card_width_cast>img{
+    width: 70%;
+    height: 120px;
+}
+.trailer_text{
+    font-size: 1vw;
+}
+@media screen and (max-width: 500px) {
+    .trailer_text{
+        font-size: 2vw;
+    }
+  }
+  .episode_slider_text{
+    color: white;
+  }
+  .episode_slider_text_1{
+    color: dodgerblue;
+  }
+  .comment_target{
+    color: black;
+  }
+  .img_zoom{
+    transition: 1s;
+  }
+  .img_zoom:hover{
+    transform: scale(1.1);
+    transition: 1s;
+  }
+ 
+.hiddin_card{
+    visibility: hidden;
+}
+.like_buttons{
+    width: 10px;
+    height: 10px;
+    
+}
+ 

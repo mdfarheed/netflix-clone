@@ -1,0 +1,50 @@
+.linK_width{
+    width: 48%;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    margin: 10px 0px 10px 0px;
+  }
+.linK_width:hover{
+    background-color: rgb(44, 41, 41);
+    color: white;
+}
+.logo_netflix_header{
+    width: 10vw;
+}
+@media screen and (max-width: 800px) {
+    .logo_netflix_header {
+        width: 15vw;
+    }
+  }
+.search_btn{
+    background-color: rgba(90, 90, 90, 0.637);
+    color: white;
+    height: 35px;
+}
+.search_btn:hover{
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+.main_container_slider_header{
+    margin-top: 5vmax;
+}
+@media screen and (max-width: 1000px) {
+    .main_container_slider_header{
+        margin-top: 6vmax;
+    }
+  }
+.main_logo_header{
+    background-color: black;
+}
+.input_box{
+    width: 30vw;
+    height: 35px;
+}
+.model_color{
+    background-color: black;
+    color: white;
+}
+.modal_close_btn{
+    box-shadow: none;
+    background-color: red;
+}
